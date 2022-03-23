@@ -80,8 +80,14 @@ WSGI_APPLICATION = 'bincomtest.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        # 'ENGINE': 'django.db.backends.sqlite3',
+        # 'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'dcfijp8qatg0qi', 
+        'USER': 'oicjujtdnitrlq', 
+        'PASSWORD': '67642f705244c4016c229a56f066963be595094b8b9bb8a58d0b907448068beb',
+        'HOST': 'ec2-18-215-96-22.compute-1.amazonaws.com', 
+        'PORT': '5432',
     }
 }
 
