@@ -1,1 +1,1 @@
-web: gunicorn votr.wsgi --log-file -
+web: gunicorn bincomtest.wsgi --log-file -
