@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'candidate_api',
     'polls_api',
     'election_api',
+    'whitenoise.runserver_nostatic', 
 ]
 
 MIDDLEWARE = [
