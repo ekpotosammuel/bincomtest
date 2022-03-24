@@ -84,10 +84,10 @@ DATABASES = {
         # 'ENGINE': 'django.db.backends.sqlite3',
         # 'NAME': BASE_DIR / 'db.sqlite3',
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'bincom', 
-        'USER': 'postgres', 
-        'PASSWORD': 'admin',
-        'HOST': '127.0.0.1', 
+        'NAME': 'dcjj9evd0numfi', 
+        'USER': 'iezliyenskebcl', 
+        'PASSWORD': '92687c7ad52321fe400ac99e1f7f5aa7851ec6d71d88fd154d9a5befd7692697',
+        'HOST': 'ec2-44-194-92-192.compute-1.amazonaws.com', 
         'PORT': '5432',
     }
 }
